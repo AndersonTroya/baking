@@ -20,7 +20,7 @@
             <tr> 
                 <td>{{ c.id }}</td> 
                 <td>{{ c.name }}</td> 
-                <td>{{ c.abbrev }}</td> 
+                <td>{{ c.abrev }}</td> 
                 <td>{% if c.status %}Sí{% else %}No{% endif %}</td> 
                 <td> 
                     <a class="btn btn-sm btn-primary" href="{% url 'authentication_app:country_edit' c.id 
